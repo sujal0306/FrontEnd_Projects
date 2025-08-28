@@ -1,0 +1,357 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container
+{
+    position: relative;
+   margin: 0px;
+    width: 100vw;
+    display: flex;
+    height: 90vh;
+ 
+}
+.navbar
+{
+    display: flex;
+   padding: 8px;
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    background-color: black;
+}
+.logo
+{
+    margin-left: 10px;
+}
+.home
+{
+    background-color: black;
+      color: white;
+      height: 54px;
+      width: 50px;
+     border-style: none;
+     
+   
+}
+.center
+{
+    display: flex;
+    width: 40%;
+    margin-left: 30%;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.cen2
+{
+    display: flex;
+    align-items: center;
+   
+    margin-left: 3px;
+    height: 70%;
+    width: 80%;
+    border-radius: 50rem;
+    background-color: rgb(31, 31, 31);
+}
+.search
+{
+    height: 50px;
+    width: 40px;
+    margin-left: 10px;
+   
+}
+input{
+    display: flex;
+    justify-content: center;
+ margin-left: 10%;
+    height: 35px;
+    width: 60%;
+    border-style: none;
+    background-color:transparent;
+    color: rgb(246, 241, 241);
+    font-size: medium;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navl
+{
+    height: 90%;
+    width: 40%;
+    margin-left: 3%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+.premium
+{
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    width: 30%;
+    background-color: white;
+    border-radius: 50rem;
+    color: black;
+    font-size: small;
+    font-size:large;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.login
+{
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75%;
+    width: 30%;
+    margin-left: 10px;
+        background-color: white;
+        border-radius: 50rem;
+        color: black;
+        font-size:large;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.left
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 2px;
+    margin-left: 8px;
+    padding: 4px;
+    width: 23vw;
+    height: 99%;
+   background-color: rgb(22, 22, 22);
+   
+}
+.head
+{
+    display: flex;
+    align-items: top;
+    margin: 5px;
+    padding: 15px;
+    height: 10%;
+    width: 100%;
+}
+.h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    height: 90%;
+    margin-left: 10px;
+    margin-right: 20%;
+   
+    color: white;
+    background-color: transparent;
+}
+.add
+{
+    height:30px;
+    width: 30px;
+    background-color: transparent;
+    border-style: none;
+    margin-right: 10px;
+
+}
+.createplaylist
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    height: 17%;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 10px;
+    background-color: rgb(42, 42, 42);
+}
+.span1
+{
+    font-size:  20px;
+    font-weight: 400;
+    font-family:  monospace;
+    color: whitesmoke;
+}
+.span2
+{
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 5px;
+    font-family: monospace;
+    color: whitesmoke;
+}
+.crebut
+{
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 18%;
+    width: 50%;
+    margin-top: 7%;
+    background-color: white;
+    border-radius: 50rem;
+    color: black;
+    font-size: small;
+    font-size:large;
+    font-weight: 500;
+    font-family: monospace;
+
+}
+
+.right
+{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 4px;
+    width: 72vw;
+    height: 99%;
+    border-radius: 10px;
+     background-color: rgb(22, 22, 22);
+   
+}
+.top
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+#choose
+{
+    height: 40px;
+   margin: 5px;
+   padding: 10px;
+   height: fit-content;
+   background-color: rgb(64, 63, 63);
+   border-style: none;
+   border-radius: 50rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 600;
+   color: whitesmoke;
+}
+.heading
+{
+    height: 40px;
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headA
+{
+   height: auto;
+   padding: 5px;
+
+}
+h2
+{
+  height: 90%;
+  color:white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+}
+.show
+{
+    display: flex;
+    align-items: bottom;
+    height: 90%;
+    color:rgb(160, 157, 157);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+.cardList
+{
+    display: flex;
+    overflow-x:auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(57, 56, 56);
+    scroll-behavior: smooth; 
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+.card
+{
+   
+    margin: 5px;
+    margin-top: 0px;
+    padding: 10px;
+    height: 90%;
+    width: 18%;
+ display: flex;
+ flex-direction: column;
+}
+.h5
+{
+    color: rgb(249, 240, 240);
+    margin-top: 5px;
+    font-size: 16px;
+}
+.right2
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track (background area) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  /* Handle (draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Hover effect on the handle */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .playbar
+  {
+    position:absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+   padding: 4px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: rgb(11, 24, 11);
+  }
+  .zoomout:hover {
+    transform: scale(1.15); /* Shrinks to 80% of original size */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
